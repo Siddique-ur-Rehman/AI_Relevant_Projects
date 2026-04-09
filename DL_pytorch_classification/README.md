@@ -25,6 +25,7 @@ A deep learning project to predict subcellular localization of yeast proteins us
 | VAC | Vacuolar | Vacuole |
 
 ## 🏗️ Model Architecture
+
 CustomModel(
 (model): Sequential(
 (0): Linear(in_features=8, out_features=16, bias=True)
@@ -32,6 +33,7 @@ CustomModel(
 (2): Linear(in_features=16, out_features=10, bias=True)
 )
 )
+
 ### Training Progress
 
 | Epoch | Loss | Accuracy |
